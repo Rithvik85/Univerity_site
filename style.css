@@ -1,0 +1,431 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-image: url("images/hscexterior.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  /* background-position: ; */
+}
+.navlinks {
+  width: 30%;
+  padding: 10px 0;
+}
+.navlinks ul {
+  display: flex;
+
+  justify-content: space-between;
+}
+.navlinks ul li {
+  list-style: none;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.navlinks ul li a:hover {
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.navbar1 {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* padding: 1%; */
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  align-items: center;
+}
+
+.logo img {
+  width: 35%;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid white; */
+  /* padding-left: 10%; */
+  cursor: pointer;
+}
+.content h2 {
+  color: white;
+  font-size: 80px;
+  font-weight: 800;
+}
+.Enroll {
+  cursor: pointer;
+}
+.enroll-btn {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(23, 127, 187);
+  &:hover {
+    background-color: rgb(58, 160, 219);
+  }
+}
+
+.enroll-btn a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.course-heading {
+  text-align: center;
+  /* padding-top: 20px; */
+  margin-bottom: 5%;
+}
+.course-heading h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.course_section {
+  background-color: rgb(23, 127, 187);
+}
+
+.course-cards {
+  width: 80%;
+  margin: auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-card {
+  border: 1px solid white;
+  width: 30%;
+  border-radius: 5px;
+  background-color: rgb(65, 147, 223);
+  box-shadow: 2px -1px 5px 13px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+.course-card:hover {
+  transform: scale(1.05);
+}
+.course-image img {
+  width: 100%;
+}
+.couse-title {
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+.course_price {
+  color: white;
+  padding: 5px;
+}
+.course_desc {
+  color: wheat;
+  padding: 5px;
+}
+.course-content {
+  padding: 10px;
+}
+.course-button {
+  background-color: rgb(53, 131, 22);
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.course-button:hover {
+  background-color: rgb(93, 179, 59);
+}
+.course_section {
+  padding: 40px;
+}
+.campus_tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  box-shadow: 2px -1px 5px 13px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  /* padding-top: 4%; */
+}
+.campus_tour:hover {
+  transform: scale(1.04);
+}
+
+.tour_image img {
+  width: 100%;
+}
+
+.campus_tour_section {
+  padding: 3%;
+  background-color: rgb(255, 255, 255);
+}
+.tour_head {
+  text-align: center;
+}
+.content_campus_tour {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: start; */
+  text-align: start;
+  padding-right: 30px;
+}
+.tour_head h1 {
+  font-size: 35px;
+}
+.tour_content {
+  padding-top: 20px;
+  text-align: center;
+}
+.tor_head {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.college_div {
+  width: 75%;
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+}
+.college_card {
+  border: 1px solid black;
+  width: 25%;
+  height: 25%;
+  border-radius: 5px;
+  background-color: rgb(221, 217, 217);
+  box-shadow: 2px 1px 5px 4px rgba(0, 0, 0, 0.3);
+  margin: 1%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.college_card:hover {
+  transform: scale(1.04);
+}
+.image_college img {
+  width: 100%;
+}
+.college_content {
+  padding: 10px 10px;
+}
+.college_name h5 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.college_desc p {
+  font-size: 13px;
+}
+.college_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%;
+}
+.hambugger {
+  display: none;
+  color: white;
+  font-size: 25px;
+}
+.Enroll {
+  margin-top: 3%;
+}
+@media (max-width: 1024px) {
+  .course-cards {
+    width: 100%;
+  }
+  a{
+    font-size: 15px;
+  }
+  .navlinks {
+       width: 46%;
+
+      }
+  .campus_tour {
+    width: 100%;
+  }
+  .college_name h5 {
+    font-size: 13px;
+  }
+  .college_desc p {
+    font-size: 10px;
+  }
+  .college_div {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+  a{
+    font-size: 12px;
+  }
+  .footer-head1 ul li h5{
+    font-size: 13px;
+  }
+
+  .hambugger {
+    display: block;
+  }
+  .navlinks {
+    display: none;
+  }
+  .couse-title {
+    font-size: 13px;
+  }
+  .course_price {
+    font-size: 13px;
+  }
+  .course_desc {
+    font-size: 10px;
+  }
+  .campus_tour {
+    flex-direction: column-reverse;
+  }
+  .college_name h5 {
+    font-size: 9px;
+  }
+  .college_desc p {
+    font-size: 6px;
+  }
+  .course-button {
+    padding: 2px;
+  }
+  .course-button a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .content h2 {
+    font-size: 33px;
+    font-weight: 800;
+  }
+  .course-heading h2 {
+    font-size: 30px;
+  }
+  .course_desc {
+    font-size: 8px;
+  }
+  .course-content {
+    padding: 5px;
+  }
+  .couse-title {
+    padding: 0px;
+  }
+  .course_price {
+    padding: 0;
+  }
+  .course_desc {
+    padding: 0;
+  }
+  .course-button a {
+    font-size: 8px;
+  }
+  .course-button {
+    padding: 1px;
+  }
+  .tor_head {
+    font-size: 30px;
+  }
+  .college_name h5 {
+    font-size: 6px;
+  }
+  .college_content {
+    padding: 4px 10px;
+  }
+  .college_desc p {
+    font-size: 5px;
+  }
+  .navbar {
+    padding: 2% 4%;
+  }
+}
+#mySidenav {
+  position: absolute;
+  top: 56%;
+  position: fixed;
+  z-index: 5;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -140px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 220px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  /* width: 10%; */
+  top: 20px;
+  background-color: #aa0465;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196f3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #4c78d6; /* Light Black */
+}
+
+/* footer css */
+.footer-head {
+  background-color: #05b1a7;
+}
+ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+li a {
+  text-decoration: none;
+}
+
+/* footer css End  */
